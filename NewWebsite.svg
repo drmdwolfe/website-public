@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1190.55 841.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+        font-size: 70.87px;
+      }
+
+      .cls-2 {
+        font-family: MontserratRoman-Regular, Montserrat;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-3 {
+        fill: #9d9d9c;
+        font-size: 34.02px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(116.19 387.25)"><tspan class="cls-1"><tspan x="0" y="0">New website coming soon.</tspan></tspan><tspan class="cls-3"><tspan x="335.86" y="122.46">diarmuidwolfe.ie</tspan></tspan><tspan class="cls-3"><tspan x="437.26" y="163.28">2024</tspan></tspan></text>
+</svg>
