@@ -3,21 +3,27 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #9d9d9c;
+        fill: #1d1d1b;
       }
 
       .cls-1, .cls-2 {
         font-family: MontserratRoman-Light, Montserrat;
-        font-size: 107px;
+        font-size: 85.82px;
         font-variation-settings: 'wght' 300;
         font-weight: 300;
       }
 
       .cls-2 {
-        fill: #1d1d1b;
+        fill: #9d9d9c;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke-width: 0px;
       }
     </style>
   </defs>
-  <text class="cls-2" transform="translate(1.11 93.32)"><tspan x="0" y="0">D</tspan></text>
-  <text class="cls-1" transform="translate(38.4 137.99)"><tspan x="0" y="0">W</tspan></text>
+  <circle class="cls-3" cx="80" cy="79.62" r="75.47"/>
+  <text class="cls-1" transform="translate(20.39 93.77)"><tspan x="0" y="0">D</tspan></text>
+  <text class="cls-2" transform="translate(50.31 129.6)"><tspan x="0" y="0">W</tspan></text>
 </svg>
