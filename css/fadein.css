@@ -1,0 +1,63 @@
+section {
+    opacity: 0;
+    transform: translate(0, 20px); transition: all 1.5s;
+}
+    
+section.visible {
+    opacity: 1;
+    transform: translate(0, 0); 
+}
+
+
+.fadeUp, .fadeUpDelayed {
+  opacity: 0;
+  transform: translate(0, 40px); transition: all 1.5s;
+
+}
+  
+.fadeUp.visible {
+  opacity: 1;
+  transform: translate(0, 0); 
+}
+
+.fadeUpDelayed.visible {
+  opacity: 1;
+  transform: translate(0, 0); 
+  transition-delay: 0.5s;
+
+}
+
+.fadeIn {
+  opacity: 0; transition: all 1.5s;
+}
+
+.fadeIn.visible {opacity: 1;}
+
+.heroFadeUp {
+  animation: heroFadeUp 2s;
+}
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translate(0, 40px); }
+  to   { opacity: 1; transform: translate(0,0);}
+}
+
+.heroFadeDelayed {
+  animation: fadeinDelayed 2.5s;
+}
+@keyframes fadeinDelayed {
+  from { opacity: 0; transform: translate(0, 40px); }
+  to   { opacity: 1; transform: translate(0,0);}
+}
+
+
+
+/*I put this  in made css to apply universally
+.heroFade {
+    animation: fadein 2s;
+  }
+  @keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+*/
+
