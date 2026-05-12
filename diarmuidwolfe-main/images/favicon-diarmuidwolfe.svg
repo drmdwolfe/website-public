@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+        font-family: MontserratRoman-Light, Montserrat;
+        font-size: 85.82px;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="80" cy="79.62" r="75.47"/>
+  <text class="cls-1" transform="translate(20.39 93.77)"><tspan x="0" y="0">D</tspan></text>
+  <text class="cls-1" transform="translate(50.31 129.6)"><tspan x="0" y="0">W</tspan></text>
+</svg>
