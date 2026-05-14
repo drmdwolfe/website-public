@@ -1075,11 +1075,6 @@ a img {
     
     }
 
-    .logo-box.dark::before {
-        content: url(/images/diarmuidwolfe-logo-temp-black.svg) !important;
-        transform: scale(1);
-    }
-
     #menuToggle span{
         display: none;
     }
