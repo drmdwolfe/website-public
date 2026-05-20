@@ -8,13 +8,10 @@
         <link rel="icon" sizes="72x72" href="images/favicon-diarmuidwolfe.svg">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/fadein.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="/css/lite-yt-embed.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <meta property="og:site_name" content="Diarmuid Wolfe | Production Designer | Art Director">
         <meta property="og:title" content="Diarmuid Wolfe | Production Designer | Art Director">
-        <meta property="og:description" content="Irish Production Designer">
-        <meta name="description" property="og:description" content="Diarmuid Wolfe | Production Designer | Art Director.">
+        <meta property="og:description" content="Diarmuid Wolfe is an Irish Production Designer and Art Director from West Cork.">
+        <meta name="description" property="og:description" content="Diarmuid Wolfe is an Irish Production Designer and Art Director from West Cork.">
         <meta property="og:image" content="http://diarmuid.ie/images/tile-diarmuidwolfe.jpg">
         <meta property="og:image:type" content="image/jpeg">
         <meta property="og:image:width" content="300">
@@ -23,114 +20,121 @@
     </head>
 
 <body>
-    <header class="sticky heroFade dark">
-        <div>
+    
+    <header class="sticky heroFade">
+         <div>
             <a href="/">
-                <div class="logo-box dark"></div>
+                <div class="logo-box"></div>
             </a>
         </div>
-        <nav class="dark">
-            <div id="menuToggle">
-                <input type="checkbox" class="toggle">
-                <span></span>
-                <span></span>
-                
-
-                <ul class="show-desktop hide-mobile" id="nav">
-                    <li><a href="/" class="hover-fill">home</a></li>
+        <nav>
+            <div class="menuToggle" id="menuToggle">
+                <input type="checkbox" class="toggle" name="menuTog">
+                <span>+</span>
+                <ul class="show-desktop hide-mobile black" id="nav">
+                    <li><a href="/" class="hover-fill">home</a></li>                                
                     <li><a href="/resume" class="hover-fill">resumé</a></li>
-                    <li><a href="portfolio" class="hover-fill">portfolio</a></li>
-                    <li><a href="https://www.imdb.com/name/nm13002659/" class="hover-fill">imdb</a></li>                 
+                    <li><a href="/portfolio" class="hover-fill">portfolio</a></li>
+                    <li><a href="https://www.imdb.com/name/nm13002659/" class="hover-fill">imdb</a></li>
                     <li><a href="/contact" class="hover-fill">contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <div class="block-white block-pale">
-        <div class="container-short heroFade" style="margin-top: 10em;">
-            <h3 style="text-align: center; ">Diarmuid Wolfe is an Irish <strong>Production Designer</strong> and <strong>Art Director</strong> from West Cork.</h3>
-    </div> 
-        <div class="block-half block-pale container">
-                <div class="grid-one fadeUp" >
-                    <img class="block-full" style src="images/w1B.webp" alt="Diarmuid Wolfe Production Designer Art Director" loading="lazy">
-                    <div>
-        <div class="block-half block-pale container">
-                <div class="grid-one fadeUp">
-                    <img class="block-full" src="images/w2B.webp" alt="Diarmuid Wolfe Production Designer Art Director" loading="lazy">
-                    <div>
-        <div class="block-half block-pale container">
-                <div class="grid-one fadeUp">
-                    <img class="block-full" src="images/w3B.webp" alt="Diarmuid Wolfe Production Designer Art Director" loading="lazy">
-                    <div>
-        <div class="block-half block-pale container">
-                <div class="grid-one fadeUp">
-                    <img class="block-full" src="images/w4B.webp" alt="Diarmuid Wolfe Production Designer Art Director" loading="lazy">
-                    <div>
-        <div class="block-half block-pale container">
-                <div class="grid-one fadeUp">
-                    <img class="block-full" src="images/w5B.webp" alt="Diarmuid Wolfe Production Designer Art Director" loading="lazy">
-                    <div>
-        <div class="block-half block-pale container">
-                <div class="grid-one fadeUp">
-                    <img class="block-full" src="images/w6B.webp" alt="Diarmuid Wolfe Production Designer Art Director" loading="lazy">
-                    <div>
-    </div>
-    </div>
-    </div>
-    </div>
-</div>
-    </div>
-    </div>
-    
-    <div class="footer">
-        <div class="footer-container">
-        <div class="footer-grid">
-            <div><a class="logo-footer" href="/"><div class="logo-box logo-footer"></div></a></div>
-            <div><a href="/"><h2>home</h2></a></div>
-            <div><a href="/resume"><h2>resumé</h2></a></div>
-            <div><a href="/portfolio"><h2>portfolio</h2></a></div>
-            <div><a href="/contact"><h2>contact</h2></a></div>
+    <div class="container block-half container-flex left" style="margin-top: 80px;text-align: left;">
+        <div class="heroFade" style="text-align: left; max-width: 1200px;" id="home">
+            <h1>Diarmuid Wolfe is an Irish Production Designer and Art Director from West Cork.</h1>
         </div>
-        </div>
-        <div class="copyright">
-            <p>©2026 All rights reserved.</p>
-            <p>Design by Diarmuid Wolfe</a></p>
-        </div>
-
-
-
     </div>
-    
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Video Modal: This is where the video player will pop up.-->
+    <div class="video-modal">
+        <div class="video-modal-close"></div>
+        <div class="injectVideo"></div>
+    </div>
+
+    <div class="container heroFade">
+        <h2>Selected Work</h2>
+        <!--Gallery: Remove the class "two" if you want just one column.-->
+        <div class="gallery two">
+            <!--Video Module - Replace the Data Youtube or Data Vimeo from the end of the video URL, depending on the source video.-->
+            <div class="video-module" data-youtube="9Yd9Pu_zc58">
+                    <div class="video-cover">
+                        <div class="video-overlay video-overlay-youtube">
+                            <div class="gallery-item-text"><h3>Niamh Chinn Óir</h3><p class="credit">production designer, editor</p></div>
+                        </div>
+                        <img src="images/production-designer-ireland-niamh-chinn-oir.jpg" alt="Diarmuid Wolfe Production Designer Ireland Art Director" loading="lazy">
+                    </div>
+            </div><!--End Video Module-->
+            <div class="video-module" data-youtube="CYgJ7k-WWqY">
+                    <div class="video-cover">
+                        <div class="video-overlay video-overlay-youtube">
+                            <div class="gallery-item-text"><h3>Burn the Casket</h3><p class="credit">production designer</p></div>
+                        </div>
+                        <img src="images/production-designer-ireland-burn-the-casket.webp" alt="Diarmuid Wolfe Production Designer Ireland Art Director" loading="lazy">
+                    </div>
+            </div><!--End Video Module-->
+            <div class="video-module" data-youtube="2T6d62Yg_8Y">
+                    <div class="video-cover">
+                        <div class="video-overlay video-overlay-youtube">
+                            <div class="gallery-item-text"><h3>Mamó & Mise</h3><p class="credit">production designer</p></div>
+                        </div>
+                        <img src="images/production-designer-ireland-mamo-agus-mise.webp" alt="Diarmuid Wolfe Production Designer Ireland Art Director" loading="lazy">
+                    </div>
+            </div><!--End Video Module-->
+            <div class="video-module" data-youtube="E5Wb9cg6V8g">
+                    <div class="video-cover">
+                        <div class="video-overlay video-overlay-youtube">
+                            <div class="gallery-item-text"><h3>Setanta & Jim Cullen</h3><p class="credit">production designer</p></div>
+                        </div>
+                        <img src="images/production-designer-ireland-setanta-agus-jim-cullen.webp" alt="Diarmuid Wolfe Production Designer Ireland Art Director" loading="lazy">
+                    </div>
+            </div><!--End Video Module-->
+            <div class="video-module" data-vimeo="968825475">
+                    <div class="video-cover">
+                        <div class="video-overlay video-overlay-vimeo">
+                            <div class="gallery-item-text"><h3>Cat & Mouse</h3><p class="credit">production designer</p></div>
+                        </div>
+                        <img src="images/production-designer-ireland-cat-and-mouse.webp" alt="Diarmuid Wolfe Production Designer Ireland Art Director" loading="lazy">
+                    </div>
+            </div><!--End Video Module-->
+            <div class="video-module" data-youtube="D6Uo3K6K5qw">
+                    <div class="video-cover">
+                        <div class="video-overlay video-overlay-youtube">
+                            <div class="gallery-item-text"><h3>The Top Road Band</h3><p class="credit">production designer</p></div>
+                        </div>
+                        <img src="images/production-designer-ireland-top-road-band.webp" alt="Diarmuid Wolfe Production Designer Ireland Art Director" loading="lazy">
+                    </div>
+            </div><!--End Video Module-->
+        </div>            
+    </div>
+
+     
+
+
+     
+
+    <div class="footer heroFade">
+         <div class="footer-container container">
+            <div><a href="/"><p>home</p></a></div>
+            <div><a href="/resume"><p>resumé</p></a></div>
+            <div><a href="/portfolio"><p>portfolio</p></a></div>
+            <div><a href="/contact"><p>contact</p></a></div>
+        </div>
+        <div class="footer-container container"></div>
+            <div class="copyright">
+                <p>© 2026 All rights reserved.</p>
+            </div>
+            <div class="copyright">
+                <p>Website design by <a href="https://www.paprika.ie" class="underline">Paprika.ie</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/video.js"></script>
     <script src="js/init.js"></script>
-    <script src="js/fadein.js"></script>
-    <script src="js/lite-yt-embed.js"></script>
-    <script src="js/magnific-popup.js"></script>
-
-    <script>$(document).ready(function() {
-    
-        $('.image-popup-no-margins').magnificPopup({
-            type: 'image',
-            closeOnContentClick: true,
-            closeBtnInside: false,
-            fixedContentPos: true,
-            mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-            image: {
-                verticalFit: true
-            },
-            zoom: {
-                enabled: true,
-                duration: 300 // don't foget to change the duration also in CSS
-            }
-        });
-    
-    });</script>
-
-
 </body>
-
-
 
 </html>
