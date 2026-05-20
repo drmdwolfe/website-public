@@ -1,10 +1,9 @@
 /***** Fonts *****/
 @font-face {
 font-family: 'Montserrat';
-src: url('/fonts/Montserrat-VariableFont_wght.woff2') format('woff2');
-font-weight: 100 900;
-font-style: italic;
+src: url('../fonts/Montserrat-VariableFont_wght.woff2') format('woff2-variations');
 font-display: swap;
+font-weight: 100 900;
 }
 
 /***** Fundamentals Set-up (Colours, Typography, Body, Html, Container *****/
