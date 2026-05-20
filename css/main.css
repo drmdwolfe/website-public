@@ -1,3 +1,12 @@
+/***** Fonts *****/
+@font-face {
+font-family: 'Montserrat';
+src: url('/fonts/Montserrat-VariableFont_wght.woff2') format('woff2');
+font-weight: 100 900;
+font-style: italic;
+font-display: swap;
+}
+
 /***** Fundamentals Set-up (Colours, Typography, Body, Html, Container *****/
 :root {
     --primary-colour:  var(--black-colour);
